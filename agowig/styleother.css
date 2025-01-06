@@ -1,0 +1,102 @@
+/*about founder*/
+body {
+   background: #EDEAE8;
+   margin: 0;
+}  
+a{
+     color: #EDEAE8; 
+	 text-decoration: none;
+}
+.the-whole-thing{
+	 display: block;
+}
+.header-div{
+  background-color:#6E6666;
+  padding: 20px;
+}
+p{
+     padding: 10px;
+     line-height: 2;
+	 font-weight: 1;
+}
+.name-div{
+	 display: flex;
+	 flex-direction: colomn;
+	 flex-wrap: wrap;
+	 justify-content: left;
+	 width: 400px;
+	 margin-left: 0px;
+	 margin-top: 0px;
+	 padding-left: 0px;
+	 padding-top: 0px;
+}
+.the-main-part{
+	 display: flex;
+	 flex-direction: row;
+	 flex-wrap: wrap;
+	 padding: 40px;
+	 margin-top:20px;
+	 justify-content: space-evenly;
+}
+img{
+	 width: 100%; 
+	 height: 100%;
+	 border-radius:10px;
+	 object-fit:cover;
+}
+.lets-see{
+	 width: 30%; 
+	 height: 400px;
+	 min-height:500px;
+	 max-width:1000px;
+	 min-width:400px;
+	 padding: 10px;
+	 margin: auto;
+	 object-fit:cover;
+	 display:inline-block;
+}
+.the-info{
+	 width: 60%;
+	 margin:auto;
+	 height:400px;
+	 max-width:1000px;
+	 display:inline-block;
+	 padding:20px;
+}
+
+/*gallery*/
+
+.main-body{
+    display:block;
+    padding:20px;
+    width:100%;
+    height:50%;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    padding:10px 0;
+    height:100%;
+    width:95%;
+}
+
+.gallery img{
+    padding:10px;
+    height:320px;
+    width:320px;
+    object-fit: cover;
+    border-radius:15px;
+}
+
+.gallery figure{
+	height:350px;
+	width:320px;
+}
+
+.gallery figcaption{
+	margin:2px 10px;
+
+}
